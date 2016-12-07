@@ -54,4 +54,19 @@ li .icon {
   text-align: center;
   font-family: 'Source Sans Pro';
   font-weight: 200;
+  font-size: 45px;
+}
+
+#promotion {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 11px;
 }
