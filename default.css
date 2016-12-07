@@ -1,0 +1,26 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact {
+  margin-right: 65px;
+  margin-top: 40px;
+  float: right;
+  list-style: none;
+}
+
+#contact li {
+  margin-left: 25px;
+  float: left;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#contact li:hover {
+  color: #4e66c0;
+  transition-duration: .8s;
+}
+
+li .icon {
+  margin-right: 8px;
+}
