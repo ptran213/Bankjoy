@@ -102,7 +102,7 @@ li .icon {
 #left {
   position: absolute;
   top: 370px;
-  left: 30%;
+  left: 34%;
   max-width: 200px;
   animation-name: slideleft;  /*create an animation called slideleft*/
   animation-duration: 1s;   /*This animation will happen in 1s*/
@@ -112,7 +112,7 @@ li .icon {
 #right {
   position: absolute;
   top: 370px;
-  right: 30%;
+  right: 34%;
   max-width: 200px;
   transition: 1s;
   animation-name: slideright;   /*create animation call slideright*/
@@ -122,10 +122,10 @@ li .icon {
 
 @keyframes slideleft {      /*Edit animation*/
   from {transform: translate(0,0);}   /*start from its original position*/
-  to {transform: translate(-59px,0);}   /*end at different position*/
+  to {transform: translate(-40px,0);}   /*end at different position*/
 }
 
 @keyframes slideright {     /*Edit animation*/
   from {transform: translate(0,0);}   /*start from its original position*/
-  to {transform: translate(63px,0);}    /*end at different position*/
+  to {transform: translate(40px,0);}    /*end at different position*/
 }
