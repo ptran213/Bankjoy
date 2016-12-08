@@ -45,7 +45,7 @@ li .icon {
 
 #slogan {
   position: absolute;
-  top: 150px;
+  top: 130px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -59,7 +59,7 @@ li .icon {
 
 #promotion {
   position: absolute;
-  top: 240px;
+  top: 210px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -73,7 +73,7 @@ li .icon {
 
 #schedule {
   position: absolute;
-  top: 300px;
+  top: 250px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -86,4 +86,46 @@ li .icon {
   background-color: #567bff;
   border-radius: 20px;
   color: white;
+}
+
+#center {
+  position: absolute;
+  top: 340px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  z-index: 1;
+}
+
+#left {
+  position: absolute;
+  top: 370px;
+  left: 30%;
+  max-width: 200px;
+  animation-name: slideleft;  /*create an animation called slideleft*/
+  animation-duration: 1s;   /*This animation will happen in 1s*/
+  animation-fill-mode: forwards;     /*Stop animation returning to original state*/
+}
+
+#right {
+  position: absolute;
+  top: 370px;
+  right: 30%;
+  max-width: 200px;
+  transition: 1s;
+  animation-name: slideright;   /*create animation call slideright*/
+  animation-duration: 1s;      /*This animation will happen in 1s*/
+  animation-fill-mode: forwards;    /*Stop animation returning to original state*/
+}
+
+@keyframes slideleft {      /*Edit animation*/
+  from {transform: translate(0,0);}   /*start from its original position*/
+  to {transform: translate(-59px,0);}   /*end at different position*/
+}
+
+@keyframes slideright {     /*Edit animation*/
+  from {transform: translate(0,0);}   /*start from its original position*/
+  to {transform: translate(63px,0);}    /*end at different position*/
 }
